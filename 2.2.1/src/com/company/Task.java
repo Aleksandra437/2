@@ -25,14 +25,3 @@ public class Task {
         }
         return list;
     }
-
-    public static void Vivod(int[][] arr, int s, int v){
-        for (int i = 0; i <= s; i++){
-            for (int j = 0; j<= v; j++){
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
-        }
-        System.out.println();
-    }
-}
