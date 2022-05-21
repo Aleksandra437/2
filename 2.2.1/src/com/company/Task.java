@@ -11,7 +11,6 @@ public class Task {
         for (int i = 2; i < arr.length; i++){
             arr[i] = arr[i - 1] + arr[i - 2];
         }
-        System.out.println();
         int size = list.size();
         for (int i = 0; i < size; i++){
             for (int j = 0; j < arr.length; j++) {
